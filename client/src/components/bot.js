@@ -45,7 +45,7 @@ class Bot extends Component {
     }
 
     renderGames(ga) {
-        const games = [730, 570, ''];
+        const games = [730, 570, 1301680, ''];
         return games.map(game => {
             if (game === ga) {
                 return ('');
